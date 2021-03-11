@@ -1,0 +1,118 @@
+// 6
+#include <iostream>
+int main() {
+  std::cout <<"Մերի\n";
+  return 0;
+}
+
+// 7
+#include <iostream>
+int main() {
+  std::cout <<"Mary\n Hovhannisyan\n";
+  return 0;
+}
+
+//8
+#include <iostream>
+using namespace std;
+int main() {
+  int a, b, sum;
+  cout <<"Enter Two Integers:\n";
+  cin >> a >> b;
+  sum = a + b;
+  cout << a << "+" << b << "=" << sum;
+  return 0;
+}
+
+//9
+#include <iostream>
+using namespace std;
+
+int main() {
+  char op;
+  float number1, number2;
+  cout << "Enter operator either + or - or * or /:";
+  cin >> op;
+
+  cout << "Enter two operands:";
+  cin >> number1 >> number2;
+
+switch (op) {
+  case '+':
+  cout << number1+number2;
+  break;
+
+  case '-':
+  cout << number1-number2;
+  break;
+
+  case '*':
+  cout << number1*number2;
+  break;
+
+  case '/':
+  cout << number1/number2;
+  break;
+
+default: // if the operator is not one of the above mentioned, error message is shown
+cout << "Error! Operator is not correct.";
+break; 
+}
+return 0;
+}
+
+//10
+#include <iostream>
+using namespace std;
+int main() {
+int number;
+cout << "Enter a number:"; 
+cin >> number;
+cout << "Result:\t" << number;
+return 0;
+}
+
+/11
+#include <iostream>
+int main() {
+int num;
+num=14;
+std::cout << num <<"\n";
+
+char ch;
+ch='a';
+std::cout << ch <<"\n";
+
+double d;
+d=5.16;
+std::cout << d << "\n";
+
+float fl;
+fl=3.786950;
+std::cout << fl << "\n";
+
+bool t_f;
+t_f= 1;
+std::cout << t_f <<"\n";
+
+wchar_t w_t;
+//w_t=; couldn't work this out (
+std::cout << "show_must_go_on" << w_t <<"\n";
+}
+
+//12
+#include <iostream>
+int main() {
+  int num1;
+  num1=14;
+  int num2;
+  num2=2;
+  int num3;
+  num3=6;
+  int sum;
+  sum=num1+num2+num3;
+
+  std::cout << sum;
+  //or ___ std::cout << num1 << "+" << num2 << "+" << num3 << "=" << sum;
+ return 0;
+}
