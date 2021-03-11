@@ -2,7 +2,7 @@
 #include <iostream>
 int main() {
   std::cout <<"Մերի\n";
-  return 0;
+  return 0; // this could be omitted
 }
 
 // 7
@@ -72,7 +72,7 @@ cout << "Result:\t" << number;
 return 0;
 }
 
-/11
+//11
 #include <iostream>
 int main() {
 int num;
